@@ -9,8 +9,8 @@
   --color-brand-gold-soft: #E4C97A;
   --color-state-line: #2A211C;
 
-  --font-display: "Cormorant Garamond", Georgia, serif;
-  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: var(--font-display-loaded), Georgia, serif;
+  --font-sans: var(--font-sans-loaded), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 
   --tracking-display: -0.02em;
   --tracking-eyebrow: 0.18em;
