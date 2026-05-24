@@ -65,6 +65,27 @@ export default async function ProductPage({ params }: PageProps) {
       .filter((u): u is string => Boolean(u)),
   };
 
+  const base = process.env.NEXT_PUBLIC_SITE_URL ?? "https://maison-banquet.vercel.app";
+  const breadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Catalog", item: `${base}/catalog` },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: p.category.title,
+        item: `${base}/catalog/${p.category.slug}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: p.title,
+        item: `${base}/catalog/${p.category.slug}/${p.slug}`,
+      },
+    ],
+  };
+
   // Related: fetch the category's product list and exclude self.
   const cat = (await getCategory(category)) as SanityCategoryShallow | null;
   const related = (cat?.products ?? []).filter((rp) => rp.slug !== p.slug).slice(0, 4);
@@ -72,6 +93,7 @@ export default async function ProductPage({ params }: PageProps) {
   return (
     <>
       <JsonLd data={productJsonLd} />
+      <JsonLd data={breadcrumb} />
       <Container className="pt-12 pb-24">
         <nav className="text-xs uppercase tracking-wide text-[var(--color-ink-muted)] mb-8">
           <Link href="/catalog" className="hover:text-[var(--color-brand-gold)]">Catalog</Link>

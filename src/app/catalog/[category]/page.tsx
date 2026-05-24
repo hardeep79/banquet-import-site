@@ -7,6 +7,7 @@ import { Eyebrow } from "@/components/ui/eyebrow";
 import { CategoryProducts } from "@/components/catalog/category-products";
 import { getCategory } from "@/lib/sanity/queries";
 import { urlFor } from "@/lib/sanity/image";
+import { JsonLd } from "@/components/seo/json-ld";
 
 export const revalidate = 60;
 
@@ -47,10 +48,21 @@ export default async function CategoryPage({ params }: PageProps) {
   const cat = (await getCategory(category)) as SanityCategory | null;
   if (!cat) notFound();
 
+  const base = process.env.NEXT_PUBLIC_SITE_URL ?? "https://maison-banquet.vercel.app";
+  const breadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Catalog", item: `${base}/catalog` },
+      { "@type": "ListItem", position: 2, name: cat.title, item: `${base}/catalog/${cat.slug}` },
+    ],
+  };
+
   const heroSrc = urlFor(cat.heroImage)?.width(1600).height(900).url();
 
   return (
     <>
+      <JsonLd data={breadcrumb} />
       {heroSrc && (
         <section className="relative h-[40vh] min-h-[320px] overflow-hidden">
           <Image
