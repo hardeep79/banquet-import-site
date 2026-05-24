@@ -44,7 +44,6 @@
     "eslint-config-prettier": "^10.1.8",
     "happy-dom": "^20.9.0",
     "prettier": "^3.8.3",
-    "sanity-codegen": "^0.9.8",
     "tailwindcss": "^4",
     "typescript": "^5",
     "typescript-eslint": "^8.59.4",
