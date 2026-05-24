@@ -2,6 +2,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import { brand } from "@/lib/brand";
+import { Header } from "@/components/layout/header";
+import { Footer } from "@/components/layout/footer";
 
 const display = Cormorant_Garamond({
   subsets: ["latin"],
@@ -24,7 +26,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${display.variable} ${sans.variable}`}>
-      <body>{children}</body>
+      <body className="flex flex-col min-h-dvh">
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
