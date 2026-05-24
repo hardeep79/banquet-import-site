@@ -45,3 +45,7 @@ next-env.d.ts
 /test-results/
 /playwright-report/
 /playwright/.cache/
+
+# Local dev server log capture
+dev.log
+dev.err.log
