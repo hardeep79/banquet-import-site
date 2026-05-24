@@ -34,3 +34,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Performance baseline (2026-05-24)
+
+| Route | Performance | Accessibility | SEO |
+|---|---|---|---|
+| / | 0.95 | 1.00 | 1.00 |
+| /catalog/chiavari-chairs/gold-luxe-chiavari | 0.87 | 1.00 | 0.92 |
+
+Re-run: `npm run build && npm start &` then `npx lighthouse <url>`.
+
+Notes (only relevant if score < 0.95 on perf):
+- Product LCP is 4.0s (score 0.49) — driven by the hero Pexels image rendered via Sanity-resolved next/image. Real luxury hero will be seeded via `siteSettings.defaultOgImage` before promotion.
+- `unused-javascript` flags ~97 KiB savings — Studio + framework bundle code that ships on first paint.
+- Product SEO loses points on `meta-description` (missing on PDP) — add per-product description metadata.
+- Sanity CDN images use `@sanity/image-url` for WebP/AVIF transforms.
