@@ -4,6 +4,7 @@ import { Cormorant_Garamond, Inter } from "next/font/google";
 import { brand } from "@/lib/brand";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { OrganizationJsonLd } from "@/components/seo/organization-jsonld";
 
 const display = Cormorant_Garamond({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${display.variable} ${sans.variable}`}>
       <body className="flex flex-col min-h-dvh">
+        <OrganizationJsonLd />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

@@ -6,6 +6,8 @@ import { ProductGallery } from "@/components/catalog/product-gallery";
 import { SpecSheet } from "@/components/catalog/spec-sheet";
 import { ProductCard } from "@/components/catalog/product-card";
 import { getProduct, getCategory } from "@/lib/sanity/queries";
+import { JsonLd } from "@/components/seo/json-ld";
+import { urlFor } from "@/lib/sanity/image";
 
 export const revalidate = 60;
 
@@ -52,12 +54,24 @@ export default async function ProductPage({ params }: PageProps) {
   const p = (await getProduct(category, product)) as SanityProductDoc | null;
   if (!p) notFound();
 
+  const productJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: p.title,
+    description: p.shortDescription,
+    category: p.category.title,
+    image: (p.images ?? [])
+      .map((img) => urlFor(img)?.width(1200).url())
+      .filter((u): u is string => Boolean(u)),
+  };
+
   // Related: fetch the category's product list and exclude self.
   const cat = (await getCategory(category)) as SanityCategoryShallow | null;
   const related = (cat?.products ?? []).filter((rp) => rp.slug !== p.slug).slice(0, 4);
 
   return (
     <>
+      <JsonLd data={productJsonLd} />
       <Container className="pt-12 pb-24">
         <nav className="text-xs uppercase tracking-wide text-[var(--color-ink-muted)] mb-8">
           <Link href="/catalog" className="hover:text-[var(--color-brand-gold)]">Catalog</Link>
