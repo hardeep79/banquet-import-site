@@ -1,0 +1,542 @@
+[
+  {
+    "categorySlug": "chiavari-chairs",
+    "slug": "gold-luxe-chiavari",
+    "title": "Gold Luxe Chiavari",
+    "shortDescription": "Resin gold-finish chiavari, ivory cushion, 12-stack height.",
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Resin (commercial grade)"
+      },
+      {
+        "label": "Finish",
+        "value": "Gold leaf"
+      },
+      {
+        "label": "Stack height",
+        "value": "12 chairs"
+      },
+      {
+        "label": "Weight",
+        "value": "9.5 lbs"
+      }
+    ],
+    "tags": [
+      "gold",
+      "stackable"
+    ],
+    "featured": true,
+    "imageUrls": [
+      "https://images.pexels.com/photos/36574443/pexels-photo-36574443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "chiavari-chairs",
+    "slug": "silver-mirror-chiavari",
+    "title": "Silver Mirror Chiavari",
+    "shortDescription": "Mirror-finish chiavari with grey cushion, modern silhouette.",
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Resin"
+      },
+      {
+        "label": "Finish",
+        "value": "Mirror silver"
+      },
+      {
+        "label": "Stack height",
+        "value": "10 chairs"
+      }
+    ],
+    "tags": [
+      "silver",
+      "modern"
+    ],
+    "featured": false,
+    "imageUrls": [
+      "https://images.pexels.com/photos/12210177/pexels-photo-12210177.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "banquet-tables",
+    "slug": "round-72-banquet",
+    "title": "72\" Round Banquet Table",
+    "shortDescription": "Seats 10-12. Plywood top, folding legs.",
+    "specs": [
+      {
+        "label": "Diameter",
+        "value": "72 inches"
+      },
+      {
+        "label": "Seats",
+        "value": "10-12"
+      },
+      {
+        "label": "Material",
+        "value": "Plywood + steel"
+      }
+    ],
+    "tags": [
+      "round",
+      "folding"
+    ],
+    "featured": true,
+    "imageUrls": [
+      "https://images.pexels.com/photos/14703692/pexels-photo-14703692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "banquet-tables",
+    "slug": "rectangle-8ft-banquet",
+    "title": "8' Rectangle Banquet Table",
+    "shortDescription": "Seats 8. Foldable legs, classic catering form factor.",
+    "specs": [
+      {
+        "label": "Length",
+        "value": "96 inches"
+      },
+      {
+        "label": "Seats",
+        "value": "8"
+      },
+      {
+        "label": "Material",
+        "value": "Plywood + steel"
+      }
+    ],
+    "tags": [
+      "rectangle",
+      "folding"
+    ],
+    "featured": false,
+    "imageUrls": [
+      "https://images.pexels.com/photos/35342607/pexels-photo-35342607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "chair-covers-and-sashes",
+    "slug": "ivory-spandex-cover",
+    "title": "Ivory Spandex Chair Cover",
+    "shortDescription": "Full-cover ivory spandex, universal chiavari/banquet fit.",
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Spandex (200gsm)"
+      },
+      {
+        "label": "Color",
+        "value": "Ivory"
+      },
+      {
+        "label": "Fit",
+        "value": "Universal"
+      }
+    ],
+    "tags": [
+      "ivory",
+      "spandex"
+    ],
+    "featured": false,
+    "imageUrls": [
+      "https://images.pexels.com/photos/1078937/pexels-photo-1078937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "chair-covers-and-sashes",
+    "slug": "gold-satin-sash",
+    "title": "Gold Satin Sash",
+    "shortDescription": "Standard 108\" satin sash in champagne gold.",
+    "specs": [
+      {
+        "label": "Length",
+        "value": "108 inches"
+      },
+      {
+        "label": "Material",
+        "value": "Satin"
+      },
+      {
+        "label": "Color",
+        "value": "Champagne gold"
+      }
+    ],
+    "tags": [
+      "gold",
+      "satin"
+    ],
+    "featured": true,
+    "imageUrls": [
+      "https://images.pexels.com/photos/34538732/pexels-photo-34538732.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "linens",
+    "slug": "ivory-polyester-cloth",
+    "title": "Ivory Polyester Tablecloth",
+    "shortDescription": "Wrinkle-resistant polyester, 132\" round drop.",
+    "specs": [
+      {
+        "label": "Diameter",
+        "value": "132 inches"
+      },
+      {
+        "label": "Material",
+        "value": "Polyester"
+      },
+      {
+        "label": "Color",
+        "value": "Ivory"
+      }
+    ],
+    "tags": [
+      "ivory",
+      "round"
+    ],
+    "featured": false,
+    "imageUrls": [
+      "https://images.pexels.com/photos/15839861/pexels-photo-15839861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "linens",
+    "slug": "champagne-sequin-overlay",
+    "title": "Champagne Sequin Overlay",
+    "shortDescription": "Sparkle overlay, 90x90 square, champagne reflective finish.",
+    "specs": [
+      {
+        "label": "Size",
+        "value": "90 x 90 inches"
+      },
+      {
+        "label": "Material",
+        "value": "Polyester + sequins"
+      }
+    ],
+    "tags": [
+      "champagne",
+      "sequin"
+    ],
+    "featured": true,
+    "imageUrls": [
+      "https://images.pexels.com/photos/5485079/pexels-photo-5485079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "charger-plates",
+    "slug": "gold-beaded-charger",
+    "title": "Gold Beaded Charger Plate",
+    "shortDescription": "13\" gold plastic charger with beaded rim. Boxes of 12.",
+    "specs": [
+      {
+        "label": "Diameter",
+        "value": "13 inches"
+      },
+      {
+        "label": "Material",
+        "value": "Plastic"
+      },
+      {
+        "label": "Pack",
+        "value": "12 / box"
+      }
+    ],
+    "tags": [
+      "gold",
+      "beaded"
+    ],
+    "featured": false,
+    "imageUrls": [
+      "https://images.pexels.com/photos/7666522/pexels-photo-7666522.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "charger-plates",
+    "slug": "silver-acrylic-charger",
+    "title": "Silver Acrylic Charger Plate",
+    "shortDescription": "13\" silver acrylic charger, hammered finish.",
+    "specs": [
+      {
+        "label": "Diameter",
+        "value": "13 inches"
+      },
+      {
+        "label": "Material",
+        "value": "Acrylic"
+      }
+    ],
+    "tags": [
+      "silver",
+      "acrylic"
+    ],
+    "featured": false,
+    "imageUrls": [
+      "https://images.pexels.com/photos/11757267/pexels-photo-11757267.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "centerpieces-and-florals",
+    "slug": "tall-crystal-candelabra",
+    "title": "Tall Crystal Candelabra",
+    "shortDescription": "32\" 5-arm crystal candelabra centerpiece.",
+    "specs": [
+      {
+        "label": "Height",
+        "value": "32 inches"
+      },
+      {
+        "label": "Arms",
+        "value": "5"
+      },
+      {
+        "label": "Material",
+        "value": "Crystal + metal"
+      }
+    ],
+    "tags": [
+      "tall",
+      "crystal"
+    ],
+    "featured": true,
+    "imageUrls": [
+      "https://images.pexels.com/photos/12689009/pexels-photo-12689009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "centerpieces-and-florals",
+    "slug": "low-rose-arrangement",
+    "title": "Low Rose Arrangement",
+    "shortDescription": "Silk rose low-profile centerpiece, ivory + blush.",
+    "specs": [
+      {
+        "label": "Height",
+        "value": "8 inches"
+      },
+      {
+        "label": "Material",
+        "value": "Silk roses"
+      }
+    ],
+    "tags": [
+      "low",
+      "floral"
+    ],
+    "featured": false,
+    "imageUrls": [
+      "https://images.pexels.com/photos/2563495/pexels-photo-2563495.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "stage-and-backdrop",
+    "slug": "modular-stage-4x8",
+    "title": "Modular Stage 4x8",
+    "shortDescription": "4'x8' modular stage section, carpet finish, 18\" height.",
+    "specs": [
+      {
+        "label": "Size",
+        "value": "4 x 8 feet"
+      },
+      {
+        "label": "Height",
+        "value": "18 inches"
+      },
+      {
+        "label": "Material",
+        "value": "Plywood + steel"
+      }
+    ],
+    "tags": [
+      "modular",
+      "stage"
+    ],
+    "featured": false,
+    "imageUrls": [
+      "https://images.pexels.com/photos/19439930/pexels-photo-19439930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "stage-and-backdrop",
+    "slug": "shimmer-wall-panel",
+    "title": "Shimmer Wall Panel",
+    "shortDescription": "20\"x20\" sequin shimmer panel, rose gold finish.",
+    "specs": [
+      {
+        "label": "Size",
+        "value": "20 x 20 inches"
+      },
+      {
+        "label": "Finish",
+        "value": "Rose gold sequin"
+      }
+    ],
+    "tags": [
+      "rose-gold",
+      "shimmer"
+    ],
+    "featured": true,
+    "imageUrls": [
+      "https://images.pexels.com/photos/10518980/pexels-photo-10518980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "dishes-and-glassware",
+    "slug": "ivory-dinner-plate",
+    "title": "Ivory Dinner Plate",
+    "shortDescription": "10.5\" porcelain dinner plate, service-grade.",
+    "specs": [
+      {
+        "label": "Diameter",
+        "value": "10.5 inches"
+      },
+      {
+        "label": "Material",
+        "value": "Porcelain"
+      }
+    ],
+    "tags": [
+      "ivory",
+      "porcelain"
+    ],
+    "featured": false,
+    "imageUrls": [
+      "https://images.pexels.com/photos/269257/pexels-photo-269257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "dishes-and-glassware",
+    "slug": "crystal-wine-goblet",
+    "title": "Crystal Wine Goblet",
+    "shortDescription": "12oz crystal-clear stemmed wine goblet.",
+    "specs": [
+      {
+        "label": "Capacity",
+        "value": "12 oz"
+      },
+      {
+        "label": "Material",
+        "value": "Lead-free crystal"
+      }
+    ],
+    "tags": [
+      "crystal",
+      "glassware"
+    ],
+    "featured": true,
+    "imageUrls": [
+      "https://images.pexels.com/photos/20531141/pexels-photo-20531141.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "event-lighting",
+    "slug": "crystal-chandelier-medium",
+    "title": "Crystal Chandelier (Medium)",
+    "shortDescription": "24\" 8-arm crystal chandelier, plug-and-play wiring.",
+    "specs": [
+      {
+        "label": "Diameter",
+        "value": "24 inches"
+      },
+      {
+        "label": "Arms",
+        "value": "8"
+      },
+      {
+        "label": "Bulbs",
+        "value": "E12 LED (incl.)"
+      }
+    ],
+    "tags": [
+      "chandelier",
+      "crystal"
+    ],
+    "featured": true,
+    "imageUrls": [
+      "https://images.pexels.com/photos/32140992/pexels-photo-32140992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "event-lighting",
+    "slug": "warm-fairy-strand-50ft",
+    "title": "Warm Fairy Strand (50ft)",
+    "shortDescription": "Copper-wire warm-white fairy lights, 50' strand.",
+    "specs": [
+      {
+        "label": "Length",
+        "value": "50 feet"
+      },
+      {
+        "label": "Color",
+        "value": "Warm white (2700K)"
+      },
+      {
+        "label": "Power",
+        "value": "USB / Battery"
+      }
+    ],
+    "tags": [
+      "fairy",
+      "warm"
+    ],
+    "featured": false,
+    "imageUrls": [
+      "https://images.pexels.com/photos/30198271/pexels-photo-30198271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "pipe-and-drape",
+    "slug": "ivory-voile-panel-8ft",
+    "title": "Ivory Voile Panel (8ft)",
+    "shortDescription": "Sheer voile drapery panel, 4'x8'.",
+    "specs": [
+      {
+        "label": "Size",
+        "value": "4 x 8 feet"
+      },
+      {
+        "label": "Material",
+        "value": "Voile (sheer)"
+      },
+      {
+        "label": "Color",
+        "value": "Ivory"
+      }
+    ],
+    "tags": [
+      "ivory",
+      "voile"
+    ],
+    "featured": false,
+    "imageUrls": [
+      "https://images.pexels.com/photos/20827845/pexels-photo-20827845.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  {
+    "categorySlug": "pipe-and-drape",
+    "slug": "champagne-shimmer-drape-10ft",
+    "title": "Champagne Shimmer Drape (10ft)",
+    "shortDescription": "Shimmer sequin drape, 4'x10', champagne tone.",
+    "specs": [
+      {
+        "label": "Size",
+        "value": "4 x 10 feet"
+      },
+      {
+        "label": "Material",
+        "value": "Sequin shimmer"
+      },
+      {
+        "label": "Color",
+        "value": "Champagne"
+      }
+    ],
+    "tags": [
+      "champagne",
+      "shimmer"
+    ],
+    "featured": true,
+    "imageUrls": [
+      "https://images.pexels.com/photos/8903619/pexels-photo-8903619.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  }
+]

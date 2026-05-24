@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "chiavari-chairs",
+    "title": "Chiavari Chairs",
+    "tagline": "The classic banquet chair, in every finish.",
+    "heroImageUrl": "https://images.pexels.com/photos/36574443/pexels-photo-36574443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "order": 1
+  },
+  {
+    "slug": "banquet-tables",
+    "title": "Banquet Tables",
+    "tagline": "Rounds and rectangles for any room.",
+    "heroImageUrl": "https://images.pexels.com/photos/37669408/pexels-photo-37669408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "order": 2
+  },
+  {
+    "slug": "chair-covers-and-sashes",
+    "title": "Chair Covers & Sashes",
+    "tagline": "Spandex and satin, every color, every fit.",
+    "heroImageUrl": "https://images.pexels.com/photos/34538732/pexels-photo-34538732.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "order": 3
+  },
+  {
+    "slug": "linens",
+    "title": "Linens",
+    "tagline": "Tablecloths, runners, napkins — by the case.",
+    "heroImageUrl": "https://images.pexels.com/photos/3376765/pexels-photo-3376765.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "order": 4
+  },
+  {
+    "slug": "charger-plates",
+    "title": "Charger Plates",
+    "tagline": "Acrylic, glass, and metal layers.",
+    "heroImageUrl": "https://images.pexels.com/photos/7666522/pexels-photo-7666522.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "order": 5
+  },
+  {
+    "slug": "centerpieces-and-florals",
+    "title": "Centerpieces & Florals",
+    "tagline": "Tall, low, and statement.",
+    "heroImageUrl": "https://images.pexels.com/photos/34329441/pexels-photo-34329441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "order": 6
+  },
+  {
+    "slug": "stage-and-backdrop",
+    "title": "Stage & Backdrop",
+    "tagline": "Modular stages and shimmer walls.",
+    "heroImageUrl": "https://images.pexels.com/photos/33485972/pexels-photo-33485972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "order": 7
+  },
+  {
+    "slug": "dishes-and-glassware",
+    "title": "Dishes & Glassware",
+    "tagline": "Service-grade dinnerware and crystal.",
+    "heroImageUrl": "https://images.pexels.com/photos/28613066/pexels-photo-28613066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "order": 8
+  },
+  {
+    "slug": "event-lighting",
+    "title": "Event Lighting",
+    "tagline": "Uplights, fairy strands, chandeliers.",
+    "heroImageUrl": "https://images.pexels.com/photos/18573147/pexels-photo-18573147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "order": 9
+  },
+  {
+    "slug": "pipe-and-drape",
+    "title": "Pipe & Drape",
+    "tagline": "Velvet, voile, and shimmer panels.",
+    "heroImageUrl": "https://images.pexels.com/photos/19024676/pexels-photo-19024676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "order": 10
+  }
+]

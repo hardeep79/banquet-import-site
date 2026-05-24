@@ -1,0 +1,293 @@
+[
+  {
+    "title": "Ballroom dinner setup with gold chiavari",
+    "tags": [
+      "ballroom",
+      "wedding"
+    ],
+    "featured": true,
+    "order": 1,
+    "imageUrl": "https://images.pexels.com/photos/29624022/pexels-photo-29624022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Garden tent reception",
+    "tags": [
+      "outdoor",
+      "wedding"
+    ],
+    "featured": false,
+    "order": 2,
+    "imageUrl": "https://images.pexels.com/photos/32854452/pexels-photo-32854452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Crystal centerpieces, candlelit aisles",
+    "tags": [
+      "wedding",
+      "ballroom"
+    ],
+    "featured": true,
+    "order": 3,
+    "imageUrl": "https://images.pexels.com/photos/1035665/pexels-photo-1035665.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Long banquet table dinner",
+    "tags": [
+      "wedding",
+      "ballroom"
+    ],
+    "featured": false,
+    "order": 4,
+    "imageUrl": "https://images.pexels.com/photos/32179374/pexels-photo-32179374.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Corporate gala stage",
+    "tags": [
+      "corporate",
+      "gala"
+    ],
+    "featured": true,
+    "order": 5,
+    "imageUrl": "https://images.pexels.com/photos/35042459/pexels-photo-35042459.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Lakeside ceremony setup",
+    "tags": [
+      "outdoor",
+      "wedding"
+    ],
+    "featured": false,
+    "order": 6,
+    "imageUrl": "https://images.pexels.com/photos/37058536/pexels-photo-37058536.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Champagne tower reception",
+    "tags": [
+      "wedding",
+      "gala"
+    ],
+    "featured": true,
+    "order": 7,
+    "imageUrl": "https://images.pexels.com/photos/35114140/pexels-photo-35114140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Round table with floral runner",
+    "tags": [
+      "wedding",
+      "ballroom"
+    ],
+    "featured": false,
+    "order": 8,
+    "imageUrl": "https://images.pexels.com/photos/12065109/pexels-photo-12065109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Outdoor arch with white florals",
+    "tags": [
+      "outdoor",
+      "wedding"
+    ],
+    "featured": false,
+    "order": 9,
+    "imageUrl": "https://images.pexels.com/photos/14703685/pexels-photo-14703685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Conference banquet lunch",
+    "tags": [
+      "corporate"
+    ],
+    "featured": false,
+    "order": 10,
+    "imageUrl": "https://images.pexels.com/photos/18749086/pexels-photo-18749086.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Sparkle backdrop ceremony",
+    "tags": [
+      "ballroom",
+      "wedding"
+    ],
+    "featured": false,
+    "order": 11,
+    "imageUrl": "https://images.pexels.com/photos/18504871/pexels-photo-18504871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Place setting close-up, gold chargers",
+    "tags": [
+      "wedding"
+    ],
+    "featured": true,
+    "order": 12,
+    "imageUrl": "https://images.pexels.com/photos/7666522/pexels-photo-7666522.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Pillared ballroom dinner",
+    "tags": [
+      "ballroom",
+      "gala"
+    ],
+    "featured": false,
+    "order": 13,
+    "imageUrl": "https://images.pexels.com/photos/12689009/pexels-photo-12689009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Sunset rooftop cocktail hour",
+    "tags": [
+      "outdoor",
+      "corporate"
+    ],
+    "featured": false,
+    "order": 14,
+    "imageUrl": "https://images.pexels.com/photos/17755496/pexels-photo-17755496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Black tie gala under chandeliers",
+    "tags": [
+      "gala",
+      "ballroom"
+    ],
+    "featured": true,
+    "order": 15,
+    "imageUrl": "https://images.pexels.com/photos/11484789/pexels-photo-11484789.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Sweetheart table with candles",
+    "tags": [
+      "wedding"
+    ],
+    "featured": false,
+    "order": 16,
+    "imageUrl": "https://images.pexels.com/photos/36028962/pexels-photo-36028962.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Velvet chair detail",
+    "tags": [
+      "ballroom"
+    ],
+    "featured": false,
+    "order": 17,
+    "imageUrl": "https://images.pexels.com/photos/30233116/pexels-photo-30233116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Tall floral aisle markers",
+    "tags": [
+      "wedding",
+      "outdoor"
+    ],
+    "featured": false,
+    "order": 18,
+    "imageUrl": "https://images.pexels.com/photos/35279293/pexels-photo-35279293.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Industrial loft reception",
+    "tags": [
+      "wedding",
+      "corporate"
+    ],
+    "featured": false,
+    "order": 19,
+    "imageUrl": "https://images.pexels.com/photos/11434576/pexels-photo-11434576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Tea-light votive runner",
+    "tags": [
+      "wedding"
+    ],
+    "featured": false,
+    "order": 20,
+    "imageUrl": "https://images.pexels.com/photos/12689032/pexels-photo-12689032.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Empire chiavari aisle",
+    "tags": [
+      "wedding",
+      "ballroom"
+    ],
+    "featured": false,
+    "order": 21,
+    "imageUrl": "https://images.pexels.com/photos/17027528/pexels-photo-17027528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Hotel ballroom prep",
+    "tags": [
+      "ballroom",
+      "corporate"
+    ],
+    "featured": false,
+    "order": 22,
+    "imageUrl": "https://images.pexels.com/photos/14636319/pexels-photo-14636319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Award ceremony stage",
+    "tags": [
+      "corporate",
+      "gala"
+    ],
+    "featured": false,
+    "order": 23,
+    "imageUrl": "https://images.pexels.com/photos/10435675/pexels-photo-10435675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Floral arch overhead",
+    "tags": [
+      "wedding",
+      "ballroom"
+    ],
+    "featured": false,
+    "order": 24,
+    "imageUrl": "https://images.pexels.com/photos/17206082/pexels-photo-17206082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Pipe and drape ceremony backdrop",
+    "tags": [
+      "wedding",
+      "ballroom"
+    ],
+    "featured": false,
+    "order": 25,
+    "imageUrl": "https://images.pexels.com/photos/36790408/pexels-photo-36790408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Bistro lights over patio",
+    "tags": [
+      "outdoor"
+    ],
+    "featured": false,
+    "order": 26,
+    "imageUrl": "https://images.pexels.com/photos/10994598/pexels-photo-10994598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Garden party long table",
+    "tags": [
+      "outdoor",
+      "wedding"
+    ],
+    "featured": false,
+    "order": 27,
+    "imageUrl": "https://images.pexels.com/photos/30175116/pexels-photo-30175116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Boardroom dinner with rotating florals",
+    "tags": [
+      "corporate"
+    ],
+    "featured": false,
+    "order": 28,
+    "imageUrl": "https://images.pexels.com/photos/13609018/pexels-photo-13609018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Empty banquet hall pre-event",
+    "tags": [
+      "ballroom"
+    ],
+    "featured": false,
+    "order": 29,
+    "imageUrl": "https://images.pexels.com/photos/19569865/pexels-photo-19569865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Bride-and-groom head table",
+    "tags": [
+      "wedding"
+    ],
+    "featured": true,
+    "order": 30,
+    "imageUrl": "https://images.pexels.com/photos/16335268/pexels-photo-16335268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  }
+]
