@@ -49,3 +49,5 @@ next-env.d.ts
 # Local dev server log capture
 dev.log
 dev.err.log
+
+.vercel
