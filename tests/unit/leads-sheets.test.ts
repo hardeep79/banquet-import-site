@@ -40,9 +40,8 @@ describe("appendLeadRow", () => {
       company: "X",
       email: "jane@x.com",
       phone: "555",
-      eventType: "wedding",
-      eventDate: "2026-09-12",
-      headcount: 200,
+      businessType: "banquet-hall",
+      orderSize: "11-50-cases",
       city: "Toronto",
       province: "ON",
       categories: "chiavari-chairs,linens",
@@ -58,10 +57,11 @@ describe("appendLeadRow", () => {
     expect(appendMock).toHaveBeenCalledOnce();
     const call = appendMock.mock.calls[0]?.[0];
     expect(call.spreadsheetId).toBe("sheet-id");
+    expect(call.range).toBe("A:S");
     expect(call.valueInputOption).toBe("RAW");
     expect(call.requestBody.values[0]).toEqual([
       "2026-05-19T20:00:00Z", "quote", "Jane", "X", "jane@x.com", "555",
-      "wedding", "2026-09-12", 200, "Toronto", "ON",
+      "banquet-hall", "11-50-cases", "Toronto", "ON",
       "chiavari-chairs,linens", "", "15-50k", "2026-08-01", "n",
       "", "", "", "CA",
     ]);
@@ -77,9 +77,8 @@ describe("appendLeadRow", () => {
         company: "",
         email: "e@e.com",
         phone: "",
-        eventType: "",
-        eventDate: "",
-        headcount: 0,
+        businessType: "",
+        orderSize: "",
         city: "",
         province: "",
         categories: "",

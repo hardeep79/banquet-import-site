@@ -11,38 +11,37 @@ interface Props {
   onChange: (patch: Partial<QuoteFormState>) => void;
 }
 
-export function StepEvent({ value, onChange }: Props) {
+export function StepOrder({ value, onChange }: Props) {
   return (
     <div className="grid gap-6 md:grid-cols-2">
-      <Field label="Event type">
+      <Field label="Business type">
         <Select
-          value={value.eventType}
-          onChange={(e) => onChange({ eventType: e.target.value as QuoteFormState["eventType"] })}
+          value={value.businessType}
+          onChange={(e) => onChange({ businessType: e.target.value as QuoteFormState["businessType"] })}
         >
           <option value="">Select…</option>
-          <option value="wedding">Wedding</option>
-          <option value="corporate">Corporate</option>
-          <option value="gala">Gala</option>
+          <option value="banquet-hall">Banquet hall</option>
+          <option value="hotel">Hotel</option>
+          <option value="restaurant">Restaurant</option>
+          <option value="decorator">Decorator</option>
+          <option value="rental-company">Rental company</option>
+          <option value="event-planner">Event planner</option>
           <option value="other">Other</option>
         </Select>
       </Field>
-      <Field label="Event date (or TBD)">
-        <Input
-          type="text"
-          placeholder="YYYY-MM-DD or TBD"
-          value={value.eventDate}
-          onChange={(e) => onChange({ eventDate: e.target.value })}
-        />
-      </Field>
-      <Field label="Headcount">
-        <Input
-          type="number"
-          min={1}
-          value={value.headcount === "" ? "" : String(value.headcount)}
-          onChange={(e) =>
-            onChange({ headcount: e.target.value === "" ? "" : Number(e.target.value) })
-          }
-        />
+      <Field label="Order size">
+        <Select
+          value={value.orderSize}
+          onChange={(e) => onChange({ orderSize: e.target.value as QuoteFormState["orderSize"] })}
+        >
+          <option value="">Select…</option>
+          <option value="sample">Sample only</option>
+          <option value="1-2-cases">1–2 cases</option>
+          <option value="3-10-cases">3–10 cases</option>
+          <option value="11-50-cases">11–50 cases</option>
+          <option value="container-load">Container load</option>
+          <option value="not-sure">Not sure yet</option>
+        </Select>
       </Field>
       <Field label="Delivery city">
         <Input value={value.city} onChange={(e) => onChange({ city: e.target.value })} />

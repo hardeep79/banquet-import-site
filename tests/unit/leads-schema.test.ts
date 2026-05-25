@@ -7,16 +7,15 @@ const validQuote = {
   company: "Northwood Banquet Hall",
   email: "jane@northwood.com",
   phone: "416-555-0100",
-  eventType: "wedding",
-  eventDate: "2026-09-12",
-  headcount: 220,
+  businessType: "banquet-hall",
+  orderSize: "11-50-cases",
   city: "Toronto",
   province: "ON",
   categories: ["chiavari-chairs", "linens"],
   products: [],
   budget: "15-50k",
   needBy: "2026-08-01",
-  notes: "Outdoor reception. Need 220 gold chiavari + matching linens.",
+  notes: "Stocking inventory for a new ballroom opening this fall.",
   consent: true,
   honeypot: "",
   turnstileToken: "x-mock-token",
@@ -39,8 +38,8 @@ describe("QuotePayloadSchema", () => {
     const r = QuotePayloadSchema.safeParse({ ...validQuote, honeypot: "spam" });
     expect(r.success).toBe(false);
   });
-  it("accepts headcount as positive integer", () => {
-    const r = QuotePayloadSchema.safeParse({ ...validQuote, headcount: 0 });
+  it("rejects unknown orderSize", () => {
+    const r = QuotePayloadSchema.safeParse({ ...validQuote, orderSize: "huge" });
     expect(r.success).toBe(false);
   });
 });

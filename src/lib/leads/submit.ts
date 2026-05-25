@@ -36,9 +36,8 @@ function toSheetRow(p: LeadPayload, timestamp: string, ctx: SubmitContext): Shee
     email: p.email,
     company: "",
     phone: "",
-    eventType: "",
-    eventDate: "",
-    headcount: 0,
+    businessType: "",
+    orderSize: "",
     city: "",
     province: "",
     categories: "",
@@ -56,9 +55,8 @@ function toSheetRow(p: LeadPayload, timestamp: string, ctx: SubmitContext): Shee
       ...base,
       company: p.company,
       phone: p.phone,
-      eventType: p.eventType,
-      eventDate: p.eventDate,
-      headcount: p.headcount,
+      businessType: p.businessType,
+      orderSize: p.orderSize,
       city: p.city,
       province: p.province,
       categories: p.categories.join(","),
@@ -75,7 +73,7 @@ function toSummary(p: LeadPayload): Record<string, unknown> {
   if (p.source === "quote") {
     return {
       name: p.name, company: p.company, email: p.email, phone: p.phone,
-      eventType: p.eventType, eventDate: p.eventDate, headcount: p.headcount,
+      businessType: p.businessType, orderSize: p.orderSize,
       city: p.city, province: p.province, budget: p.budget,
       categories: p.categories, products: p.products,
     };

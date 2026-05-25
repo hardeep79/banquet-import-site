@@ -8,9 +8,8 @@ export interface SheetRow {
   company: string;
   email: string;
   phone: string;
-  eventType: string;
-  eventDate: string;
-  headcount: number;
+  businessType: string;
+  orderSize: string;
   city: string;
   province: string;
   categories: string;
@@ -46,12 +45,12 @@ export async function appendLeadRow(row: SheetRow): Promise<void> {
   const sheets = google.sheets({ version: "v4", auth });
   await sheets.spreadsheets.values.append({
     spreadsheetId: sheetId,
-    range: "A:T",
+    range: "A:S",
     valueInputOption: "RAW",
     requestBody: {
       values: [[
         row.timestamp, row.source, row.name, row.company, row.email, row.phone,
-        row.eventType, row.eventDate, row.headcount, row.city, row.province,
+        row.businessType, row.orderSize, row.city, row.province,
         row.categories, row.products, row.budget, row.needBy, row.notes,
         row.utmSource, row.utmMedium, row.utmCampaign, row.ipCountry,
       ]],

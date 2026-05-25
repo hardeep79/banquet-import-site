@@ -1,8 +1,7 @@
 export interface QuoteFormState {
   // step 1
-  eventType: "wedding" | "corporate" | "gala" | "other" | "";
-  eventDate: string;
-  headcount: number | "";
+  businessType: "banquet-hall" | "hotel" | "restaurant" | "decorator" | "rental-company" | "event-planner" | "other" | "";
+  orderSize: "sample" | "1-2-cases" | "3-10-cases" | "11-50-cases" | "container-load" | "not-sure" | "";
   city: string;
   province: string;
   // step 2

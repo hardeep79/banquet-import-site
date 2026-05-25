@@ -11,8 +11,8 @@ export function CtaBand() {
           Get a quote in 24 hours.
         </h2>
         <p className="mt-6 text-[var(--color-ink-muted)] max-w-xl mx-auto">
-          Tell us about the event. We&apos;ll come back with a tailored line sheet, sourcing options,
-          and a delivery timeline you can plan against.
+          Tell us what you&apos;re sourcing. We&apos;ll come back with a tailored line sheet, pricing for
+          your volume, and a delivery timeline you can plan against.
         </p>
         <div className="mt-10">
           <Button asChild size="lg">

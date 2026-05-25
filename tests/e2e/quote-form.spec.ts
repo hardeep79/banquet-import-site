@@ -11,10 +11,9 @@ test("quote form happy path posts to /api/lead and redirects to thanks", async (
 
   await page.goto("/quote");
 
-  // Step 1 — Event basics
-  await page.getByLabel(/Event type/i).selectOption("wedding");
-  await page.getByLabel(/Event date/i).fill("2026-09-12");
-  await page.getByLabel(/Headcount/i).fill("220");
+  // Step 1 — Order basics
+  await page.getByLabel(/Business type/i).selectOption("banquet-hall");
+  await page.getByLabel(/Order size/i).selectOption("11-50-cases");
   await page.getByLabel(/Delivery city/i).fill("Toronto");
   await page.getByLabel(/Province/i).selectOption("ON");
   await page.getByRole("button", { name: /^next$/i }).click();

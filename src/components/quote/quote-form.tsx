@@ -4,16 +4,15 @@ import * as React from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { StepEvent } from "./step-event";
+import { StepOrder } from "./step-order";
 import { StepProduct } from "./step-product";
 import { StepContact } from "./step-contact";
 import { Turnstile } from "./turnstile";
 import type { QuoteFormState } from "./types";
 
 const INITIAL: QuoteFormState = {
-  eventType: "",
-  eventDate: "",
-  headcount: "",
+  businessType: "",
+  orderSize: "",
   city: "",
   province: "",
   categories: [],
@@ -92,10 +91,8 @@ export function QuoteForm() {
         company: state.company,
         email: state.email,
         phone: state.phone,
-        eventType: state.eventType || "other",
-        eventDate: state.eventDate || "TBD",
-        headcount:
-          typeof state.headcount === "number" ? state.headcount : Number(state.headcount) || 0,
+        businessType: state.businessType || "other",
+        orderSize: state.orderSize || "not-sure",
         city: state.city,
         province: state.province,
         categories: state.categories,
@@ -128,7 +125,7 @@ export function QuoteForm() {
   return (
     <div>
       <ol className="flex items-center gap-4 mb-12 text-xs uppercase tracking-wide">
-        {["Event", "Product", "Contact"].map((label, i) => {
+        {["Order", "Product", "Contact"].map((label, i) => {
           const n = i + 1;
           const active = n === step;
           return (
@@ -150,7 +147,7 @@ export function QuoteForm() {
           exit={{ opacity: 0, x: -30 }}
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
-          {step === 1 && <StepEvent value={state} onChange={update} />}
+          {step === 1 && <StepOrder value={state} onChange={update} />}
           {step === 2 && <StepProduct value={state} onChange={update} />}
           {step === 3 && (
             <>

@@ -8,10 +8,10 @@
 
 ## 2. Add the header row
 
-Paste into row 1 (tab-separated, will split into 20 columns):
+Paste into row 1 (tab-separated, will split into 19 columns):
 
 ```
-timestamp	source	name	company	email	phone	event_type	event_date	headcount	city	province	categories	products	budget	need_by	notes	utm_source	utm_medium	utm_campaign	ip_country
+timestamp	source	name	company	email	phone	business_type	order_size	city	province	categories	products	budget	need_by	notes	utm_source	utm_medium	utm_campaign	ip_country
 ```
 
 ## 3. Create a service account
@@ -56,7 +56,7 @@ Mirror into Vercel project env vars (Production + Preview).
 npm run dev
 ```
 
-Submit a real test through `/quote`. Open the sheet — confirm a row landed in row 2 with all 20 columns populated.
+Submit a real test through `/quote`. Open the sheet — confirm a row landed in row 2 with all 19 columns populated.
 
 ## Troubleshooting
 
